@@ -13,6 +13,7 @@ function App() {
           <Route path="/" element={<Forms />} />
           <Route path="/sdsdjhbbsddhjbsfdh" element={<Login />} />
           <Route path="/data" element={<DataTable />} />
+          <Route path="*" element={<Forms />} />
 
         </Routes>
       </BrowserRouter>
